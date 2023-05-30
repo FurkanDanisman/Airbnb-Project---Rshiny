@@ -1,15 +1,18 @@
 # Airbnb-Project-Rshiny
 
-This project aims to create a website through R-shiny to help guests/landlords to better understand competetive market behaviour of the airbnb at Amsterdam.
+This project aims to create a website through R-shiny to help guests/landlords to better understand the competitive market behavior of Airbnb in Amsterdam.
 
 ## Table of Contents
 
-- [Abstract](#abstract)
+- [Introduction of the Website](#introduction-of-the-website)
 - [Data Description](#data-description)
 - [Code](#code)
 - [References](#references)
 
-## Abstract
+## Introduction of the Website
+
+You may find the created website through R-shiny by clicking the [Airbnb-Project-Website](http://127.0.0.1:4576/)
+This dynamic website is designed to find the best Airbnb home according to your wishes and help you understand the **competitive market** to find a reasonable price. From the data exploration tab, you can make inferences about the descriptive statistics of the Airbnb data. You can enter the listings section on our page to see the house's location or what is nearby the house you like. On the Explore listings page, you can easily view the Price, Property Type, and Rating of the house you have selected by using the filters Neighbourhood, Number of Rooms, Number of Guests, and Room Type. This page will support you in the house determination process. The Visualization Tab is made to provide you the information about the relationships between different variables. On the Analytics page, there are graphs as a result of the analysis of Airbnb categories. These visualizations give you an idea of critical values such as Neighbourhood, Price, Rating, and Response Time that inform you before choosing your home.
 
 ## Data Description
 
@@ -19,10 +22,10 @@ This project aims to create a website through R-shiny to help guests/landlords t
 + *host_since_anniversary*: The dataset includes the anniversary dates (month and day) of the hosts joining Airbnb.
 + *id*: The unique identifier of the listing ranges from 2,818 to 5,829,776.
 + *neighbourhood_cleansed*: The dataset contains character values representing the names of the neighborhoods.
-+ *city*: The dataset includes character values representing the names of cities.
++ *City*: The dataset includes character values representing the names of cities.
 + *state*: The dataset contains character values representing the names of states or regions.
 + *zipcode*: The dataset includes character values representing postal codes or zip codes.
-+ *country*: The dataset contains character values representing the names of countries.
++ *Country*: The dataset contains character values representing the names of countries.
 + *latitude*: The latitude coordinates range from 52.29 to 52.43.
 + *longitude*: The longitude coordinates range from 4.763 to 5.014.
 + *property_type*: The dataset contains character values representing the types of properties (e.g., apartment, house, etc.).
@@ -31,7 +34,7 @@ This project aims to create a website through R-shiny to help guests/landlords t
 + *bathrooms*: The number of bathrooms available ranges from 0 to 8.
 + *bedrooms*: The number of bedrooms available ranges from 0 to 10.
 + *beds*: The number of beds available ranges from 1 to 16.
-+ *bed_type*: The dataset contains character values representing the types of beds available (e.g., real bed, sofa bed, etc.).
++ *bed_type*: The dataset contains character values representing the types of beds available (e.g., a real bed, sofa bed, etc.).
 + *price*: The nightly price for renting the listing varies from 15.0 to 1400.0.
 + *guests_included*: The number of guests included in the base price ranges from 0 to 16.
 + *extra_people*: The additional cost for each extra guest ranges from 0.0 to 235.0.
@@ -45,4 +48,22 @@ This project aims to create a website through R-shiny to help guests/landlords t
 + *review_scores_checkin*: The rating score for check-in given by guests ranges from 2.00 to 10.00.
 + *review_scores_communication*: The rating score for communication given by guests ranges
 
+## Code
 
+The website is created through R-shiny with the help of libraries such as **leaflet**, **worldcloud**, and **showtext** to create a world map design and make an analysis based on the results. During the coding process, many of the other libraries are used as well where it can be found [here](). In the code there are 4 parts, as follows:
+
+- Applying libraries 
+- Creating the ui
+- Creating the server
+- Rshiny function to start the website
+
+All of the parts are explained explicitly through the code to understand the process more clearly. The code of this project can be found by clicking [Airbnb-R-code]()
+
+## References
+
+https://towardsdatascience.com/how-to-build-a-data-analysis-app-in-r-shiny-143bee9338f7
+https://mastering-shiny.org/index.html
+https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+https://rpubs.com/pjozefek/573335
+https://shiny.rstudio.com/articles/layout-guide.html
+https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
