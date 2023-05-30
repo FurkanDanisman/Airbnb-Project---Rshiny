@@ -12,6 +12,8 @@ This project aims to create a website through R-shiny to help guests/landlords t
 ## Introduction of the Website
 
 You may find the created website through R-shiny by clicking the [Airbnb-Project-Website](http://127.0.0.1:4576/)
+
+
 This dynamic website is designed to find the best Airbnb home according to your wishes and help you understand the **competitive market** to find a reasonable price. From the data exploration tab, you can make inferences about the descriptive statistics of the Airbnb data. You can enter the listings section on our page to see the house's location or what is nearby the house you like. On the Explore listings page, you can easily view the Price, Property Type, and Rating of the house you have selected by using the filters Neighbourhood, Number of Rooms, Number of Guests, and Room Type. This page will support you in the house determination process. The Visualization Tab is made to provide you the information about the relationships between different variables. On the Analytics page, there are graphs as a result of the analysis of Airbnb categories. These visualizations give you an idea of critical values such as Neighbourhood, Price, Rating, and Response Time that inform you before choosing your home.
 
 ## Data Description
@@ -50,20 +52,30 @@ This dynamic website is designed to find the best Airbnb home according to your 
 
 ## Code
 
-The website is created through R-shiny with the help of libraries such as **leaflet**, **worldcloud**, and **showtext** to create a world map design and make an analysis based on the results. During the coding process, many of the other libraries are used as well where it can be found [here](). In the code there are 4 parts, as follows:
+The website is created through R-shiny with the help of libraries such as **leaflet**, **worldcloud**, and **showtext** to create a world map design and make an analysis based on the results. During the coding process, many of the other libraries are used as well where it can be found [here](https://github.com/FurkanDanisman/Airbnb-Project---Rshiny/blob/main/Code/Libraries%20and%20Packages). In the code there are 4 parts, as follows:
 
 - Unpacking libraries 
 - Defining the ui
 - Defining the server
 - Using Rshiny function to start the website
 
-All of the parts are explained explicitly through the code to understand the process more clearly. The code of this project can be found by clicking [Airbnb-R-code]()
+All of the parts are explained explicitly through the code to understand the process more clearly. The code of this project can be found by clicking [Airbnb-R-code](https://github.com/FurkanDanisman/Airbnb-Project---Rshiny/blob/main/Code/Airbnb-Project-Rshiny-code.R)
 
 ## References
 
 * https://towardsdatascience.com/how-to-build-a-data-analysis-app-in-r-shiny-143bee9338f7
+
+
 * https://mastering-shiny.org/index.html
+
+
 * https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+
+
 * https://rpubs.com/pjozefek/573335
+
+
 * https://shiny.rstudio.com/articles/layout-guide.html
+
+
 * https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
