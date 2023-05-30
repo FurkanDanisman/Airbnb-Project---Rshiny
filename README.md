@@ -52,18 +52,18 @@ This dynamic website is designed to find the best Airbnb home according to your 
 
 The website is created through R-shiny with the help of libraries such as **leaflet**, **worldcloud**, and **showtext** to create a world map design and make an analysis based on the results. During the coding process, many of the other libraries are used as well where it can be found [here](). In the code there are 4 parts, as follows:
 
-- Applying libraries 
-- Creating the ui
-- Creating the server
-- Rshiny function to start the website
+- Unpacking libraries 
+- Defining the ui
+- Defining the server
+- Using Rshiny function to start the website
 
 All of the parts are explained explicitly through the code to understand the process more clearly. The code of this project can be found by clicking [Airbnb-R-code]()
 
 ## References
 
-https://towardsdatascience.com/how-to-build-a-data-analysis-app-in-r-shiny-143bee9338f7
-https://mastering-shiny.org/index.html
-https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
-https://rpubs.com/pjozefek/573335
-https://shiny.rstudio.com/articles/layout-guide.html
-https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+* https://towardsdatascience.com/how-to-build-a-data-analysis-app-in-r-shiny-143bee9338f7
+* https://mastering-shiny.org/index.html
+* https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+* https://rpubs.com/pjozefek/573335
+* https://shiny.rstudio.com/articles/layout-guide.html
+* https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
