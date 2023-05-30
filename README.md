@@ -59,7 +59,7 @@ The website is created through R-shiny with the help of libraries such as **leaf
 - Defining the server
 - Using Rshiny function to start the website
 
-All of the parts are explained explicitly through the code to understand the process more clearly. The code of this project can be found by clicking [Airbnb-R-code](https://github.com/FurkanDanisman/Airbnb-Project---Rshiny/blob/main/Code/Airbnb-Project-Rshiny-code.R)
+All of the parts are explained explicitly through the code to understand the process more clearly. The code of this project can be found by clicking [Airbnb-R-code](https://github.com/FurkanDanisman/Airbnb-Project---Rshiny/blob/main/Code/Airbnb-Project-Rshiny-code.R).
 
 ## References
 
