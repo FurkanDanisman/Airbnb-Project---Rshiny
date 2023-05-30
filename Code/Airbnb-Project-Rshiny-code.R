@@ -174,8 +174,8 @@ On the Analytics page, there are graphs as a result of the analysis of Airbnb ca
                            
                            
                            h3(("We R Team" )),
-                           h4(("Furkan Berk Danışman - 2428969")),
-                           h4(("Sıla İlyürek Kılıç - 2429157")),
+                           h4(("Furkan Berk Danışman")),
+                           h4(("Sıla İlyürek Kılıç")),
                            h3(("REFERENCES")),
                            h4(("https://towardsdatascience.com/how-to-build-a-data-analysis-app-in-r-shiny-143bee9338f7")),
                            h4(("https://mastering-shiny.org/index.html")),
