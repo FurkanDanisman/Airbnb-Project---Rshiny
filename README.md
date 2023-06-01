@@ -11,12 +11,14 @@ This project aims to create a website through R-shiny to help guests/landlords t
 
 ## Introduction of the Website
 
-You may find the created website through R-shiny by clicking the [Airbnb-Project-Website](http://127.0.0.1:3841/)
+This website is a tool that can be used by Airbnb guests and hosts. We hope to provide a data-driven way for guests and hosts to analyze and understand the landscape of short-term accommodations in Amsterdam. Hosts can also benefit from this website by looking at different cleaning fees, reviews, rating scores, and prices. They can use the tools and visualization on this web app to get a sense of how prices are set on Airbnb and get a pulse-check for how they are positioned to competitors. For anyone wishing to become a host and list their property for the first time, this tool would be very useful for gathering information on how they should price their listing. New Airbnb hosts can use the website for a first-cut understanding of the competitive landscape for market entry and pricing strategy.
 
-
-This dynamic website is designed to find the best Airbnb home according to your wishes and help you understand the **competitive market** to find a reasonable price. From the data exploration tab, you can make inferences about the descriptive statistics of the Airbnb data. You can enter the listings section on our page to see the house's location or what is nearby the house you like. On the Explore listings page, you can easily view the Price, Property Type, and Rating of the house you have selected by using the filters Neighbourhood, Number of Rooms, Number of Guests, and Room Type. This page will support you in the house determination process. The Visualization Tab is made to provide you the information about the relationships between different variables. On the Analytics page, there are graphs as a result of the analysis of Airbnb categories. These visualizations give you an idea of critical values such as Neighbourhood, Price, Rating, and Response Time that inform you before choosing your home.
 
 ## Data Description
+
+The data from this web-app was retrieved from:  [Airbnb data](https://data.world/aewart/airbnb-raw-data/workspace/file?filename=Unit_1_Project_Dataset+%281%29.csv.)
+
+Cleaned version of this data comprises 6056 row and 33 columns and 5144 host listings in Amsterdam, Netherlands from 2008 to 2015.
 
 + *host_id*: The range of host IDs varies from 1,662 to 30,260,408.
 + *host_name*: The dataset contains character values representing the names of the hosts.
