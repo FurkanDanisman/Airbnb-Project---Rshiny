@@ -5,6 +5,7 @@ This project aims to create a website through R-shiny to help guests/landlords t
 ## Table of Contents
 
 - [Introduction of the Website](#introduction-of-the-website)
+- [Data Decription](#Data-Description)
 - [Code](#code)
 - [References](#references)
 
